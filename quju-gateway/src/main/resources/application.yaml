@@ -1,0 +1,90 @@
+server:
+  port: 8085
+
+spring:
+  profiles:
+    active: dev
+  redis:
+    database: 9
+    host: 192.168.6.128
+    port: 6379
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: 'http://localhost:8085/quju-auth-service/rsa/publicKey'
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: quju-auth-service-route
+          uri: lb://quju-auth-service
+          predicates:
+            - Path=/quju-auth-service/**
+          filters:
+            - StripPrefix=1
+
+        - id: quju-system-service-service-route
+          uri: lb://quju-system-service
+          predicates:
+            - Path=/quju-system-service-service/**
+          filters:
+             - StripPrefix=1
+
+        - id: quju-system-service-route
+          uri: lb://quju-system-service
+          predicates:
+            - Path=/quju-system-service/**
+          filters:
+            - StripPrefix=1
+        - id: quju-app-service-route
+          uri: lb://quju-app-service
+
+
+          predicates:
+            - Path=/quju-app-service/**
+          filters:
+            - StripPrefix=1
+        - id: quju-common-service-route
+          uri: lb://quju-common-service
+          predicates:
+            - Path=/quju-common-service/**
+          filters:
+            - StripPrefix=1
+
+dubbo:
+  application:
+    name: quju-gateway-service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1
+  cloud:
+    subscribed-services: quju-auth-service #指定当前服务需要订阅的服务列表，即需要从注册中心获取的提供者服务
+  consumer:
+    check: false
+
+logging:
+  config: classpath:log4j2-dev.xml
+
+security:
+  ignore:
+    urls:
+      - /quju-auth-service/oauth/token/**
+      - /quju-system-service/role/querySysRoleList
+      - /quju-system-service/dept/querySysDeptList
+      - /quju-system-service/user/querySysUserDetail
+      - /quju-auth-service/oauth/**
+      - /quju-app-service/wechatNotice/**
+      - /quju-app-service/pay/wxRechargeDeposit
+      - /quju-app-service/dingNotice/**

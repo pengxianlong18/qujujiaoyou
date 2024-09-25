@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codefit.quju.system.service.biz.dao.BasActivityBizMapper">
+    <resultMap id="BaseResultMap" type="cn.codefit.quju.system.api.dto.BasActivityDto">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="user_id" jdbcType="VARCHAR" property="userId"/>
+        <result column="posters_list" jdbcType="VARCHAR" property="postersList"/>
+        <result column="activity_theme" jdbcType="VARCHAR" property="activityTheme"/>
+        <result column="activity_address" jdbcType="VARCHAR" property="activityAddress"/>
+        <result column="district" jdbcType="VARCHAR" property="district"/>
+        <result column="start_time" jdbcType="TIMESTAMP" property="startTime"/>
+        <result column="end_time" jdbcType="TIMESTAMP" property="endTime"/>
+        <result column="is_pay_end" jdbcType="TINYINT" property="isPayEnd"/>
+        <result column="cost_type" jdbcType="TINYINT" property="costType"/>
+        <result column="activity_amount" jdbcType="DECIMAL" property="activityAmount"/>
+        <result column="contact" jdbcType="VARCHAR" property="contact"/>
+        <result column="primary_classification" jdbcType="VARCHAR" property="primaryClassification"/>
+        <result column="secondary_classification" jdbcType="VARCHAR" property="secondaryClassification"/>
+        <result column="activity_content" jdbcType="VARCHAR" property="activityContent"/>
+        <result column="activity_content_picture" jdbcType="VARCHAR" property="activityContentPicture"/>
+        <result column="already_join" jdbcType="INTEGER" property="alreadyJoin"/>
+        <result column="expect_number" jdbcType="INTEGER" property="expectNumber"/>
+        <result column="registration_deadline" jdbcType="TIMESTAMP" property="registrationDeadline"/>
+        <result column="registration_req_questions" jdbcType="VARCHAR" property="registrationReqQuestions"/>
+        <result column="whether_public" jdbcType="TINYINT" property="whetherPublic"/>
+        <result column="is_hot" jdbcType="TINYINT" property="isHot"/>
+        <result column="primary_id" jdbcType="INTEGER" property="primaryId"/>
+        <result column="secondary_id" jdbcType="INTEGER" property="secondaryId"/>
+        <result column="latitude" jdbcType="DOUBLE" property="latitude"/>
+        <result column="longitude" jdbcType="DOUBLE" property="longitude"/>
+        <result column="activity_city" jdbcType="VARCHAR" property="activityCity"/>
+        <result column="er_code_url" jdbcType="VARCHAR" property="erCodeUrl"/>
+        <result column="circle_id" jdbcType="BIGINT" property="circleId"/>
+        <result column="circle_name" jdbcType="VARCHAR" property="circleName"/>
+        <result column="platform" jdbcType="INTEGER" property="platform"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        <result column="modify_user" jdbcType="VARCHAR" property="modifyUser"/>
+        <result column="modify_user_name" jdbcType="VARCHAR" property="modifyUserName"/>
+        <result column="city_code" jdbcType="VARCHAR" property="cityCode"/>
+        <result column="activity_no" jdbcType="VARCHAR" property="activityNo"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        user_id,
+        posters_list,
+        activity_theme,
+        activity_address,
+        district,
+        start_time,
+        end_time,
+        is_pay_end,
+        cost_type,
+        activity_amount,
+        contact,
+        primary_classification,
+        secondary_classification,
+        activity_content,
+        activity_content_picture,
+        already_join,
+        expect_number,
+        registration_deadline,
+        registration_req_questions,
+        whether_public,
+        is_hot,
+        primary_id,
+        secondary_id,
+        latitude,
+        longitude,
+        activity_city,
+        er_code_url,
+        circle_id,
+        circle_name,
+        platform,
+        is_deleted,
+        create_user,
+        create_time,
+        create_user_name,
+        modify_time,
+        modify_user,
+        modify_user_name,
+        city_code,
+        activity_no
+    </sql>
+
+
+    <select id="selectByCondition" parameterType="map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from bas_activity where 1=1
+
+        <if test="id != null">
+            and id = #{id,jdbcType=BIGINT}
+        </if>
+        <if test="userId != null and userId != ''">
+            and user_id = #{userId,jdbcType=VARCHAR}
+        </if>
+        <if test="postersList != null and postersList != ''">
+            and posters_list = #{postersList,jdbcType=VARCHAR}
+        </if>
+        <if test="activityTheme != null and activityTheme != ''">
+            and activity_theme = #{activityTheme,jdbcType=VARCHAR}
+        </if>
+        <if test="activityAddress != null and activityAddress != ''">
+            and activity_address = #{activityAddress,jdbcType=VARCHAR}
+        </if>
+        <if test="district != null and district != ''">
+            and district = #{district,jdbcType=VARCHAR}
+        </if>
+        <if test="startTime != null">
+            and start_time = #{startTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="endTime != null">
+            and end_time = #{endTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="isPayEnd != null">
+            and is_pay_end = #{isPayEnd,jdbcType=TINYINT}
+        </if>
+        <if test="costType != null">
+            and cost_type = #{costType,jdbcType=TINYINT}
+        </if>
+        <if test="activityAmount != null">
+            and activity_amount = #{activityAmount,jdbcType=DECIMAL}
+        </if>
+        <if test="contact != null and contact != ''">
+            and contact = #{contact,jdbcType=VARCHAR}
+        </if>
+        <if test="primaryClassification != null and primaryClassification != ''">
+            and primary_classification = #{primaryClassification,jdbcType=VARCHAR}
+        </if>
+        <if test="secondaryClassification != null and secondaryClassification != ''">
+            and secondary_classification = #{secondaryClassification,jdbcType=VARCHAR}
+        </if>
+        <if test="activityContent != null and activityContent != ''">
+            and activity_content = #{activityContent,jdbcType=VARCHAR}
+        </if>
+        <if test="activityContentPicture != null and activityContentPicture != ''">
+            and activity_content_picture = #{activityContentPicture,jdbcType=VARCHAR}
+        </if>
+        <if test="alreadyJoin != null">
+            and already_join = #{alreadyJoin,jdbcType=INTEGER}
+        </if>
+        <if test="expectNumber != null">
+            and expect_number = #{expectNumber,jdbcType=INTEGER}
+        </if>
+        <if test="registrationDeadline != null">
+            and registration_deadline = #{registrationDeadline,jdbcType=TIMESTAMP}
+        </if>
+        <if test="registrationReqQuestions != null and registrationReqQuestions != ''">
+            and registration_req_questions = #{registrationReqQuestions,jdbcType=VARCHAR}
+        </if>
+        <if test="whetherPublic != null">
+            and whether_public = #{whetherPublic,jdbcType=TINYINT}
+        </if>
+        <if test="isHot != null">
+            and is_hot = #{isHot,jdbcType=TINYINT}
+        </if>
+        <if test="primaryId != null">
+            and primary_id = #{primaryId,jdbcType=INTEGER}
+        </if>
+        <if test="secondaryId != null">
+            and secondary_id = #{secondaryId,jdbcType=INTEGER}
+        </if>
+        <if test="latitude != null">
+            and latitude = #{latitude,jdbcType=DOUBLE}
+        </if>
+        <if test="longitude != null">
+            and longitude = #{longitude,jdbcType=DOUBLE}
+        </if>
+        <if test="activityCity != null and activityCity != ''">
+            and activity_city = #{activityCity,jdbcType=VARCHAR}
+        </if>
+        <if test="erCodeUrl != null and erCodeUrl != ''">
+            and er_code_url = #{erCodeUrl,jdbcType=VARCHAR}
+        </if>
+        <if test="circleId != null">
+            and circle_id = #{circleId,jdbcType=BIGINT}
+        </if>
+        <if test="circleName != null and circleName != ''">
+            and circle_name = #{circleName,jdbcType=VARCHAR}
+        </if>
+        <if test="platform != null">
+            and platform = #{platform,jdbcType=INTEGER}
+        </if>
+        <if test="isDeleted != null">
+            and is_deleted = #{isDeleted,jdbcType=TINYINT}
+        </if>
+        <if test="createUser != null and createUser != ''">
+            and create_user = #{createUser,jdbcType=VARCHAR}
+        </if>
+        <if test="createTime != null">
+            and create_time = #{createTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="createUserName != null and createUserName != ''">
+            and create_user_name = #{createUserName,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyTime != null">
+            and modify_time = #{modifyTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="modifyUser != null and modifyUser != ''">
+            and modify_user = #{modifyUser,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyUserName != null and modifyUserName != ''">
+            and modify_user_name = #{modifyUserName,jdbcType=VARCHAR}
+        </if>
+
+        <if test="cityCode != null and cityCode != ''">
+            and city_code = #{cityCode,jdbcType=VARCHAR}
+        </if>
+
+        <if test="activityNo != null and activityNo != ''">
+            and activity_no = #{activityNo,jdbcType=VARCHAR}
+        </if>
+
+        <if test="startDateLower != null">
+            <![CDATA[and start_time >= #{startDateLower} ]]>
+        </if>
+        <if test="endDateUpper != null">
+            <![CDATA[and end_time <= #{endDateUpper} ]]>
+        </if>
+
+        <if test="createTimeLower != null">
+            <![CDATA[and create_time >= #{createTimeLower} ]]>
+        </if>
+
+        <if test="endTimeShowmax != null">
+            <![CDATA[and end_time >= #{endTimeShowmax} ]]>
+        </if>
+
+        <if test="activityIds != null and activityIds.size() > 0">
+            AND id IN
+            <foreach collection="activityIds" index="index" item="item" separator="," open="(" close=")">
+                #{item}
+            </foreach>
+        </if>
+
+        order by id desc
+    </select>
+</mapper>

@@ -1,0 +1,653 @@
+[2024-07-15 16:52:52,759][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 16:52:52,762][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 16:52:55,605][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 16:52:56,279][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 16:52:56,365][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 16:52:56,387][main][WARN][org.apache.dubbo.config.ServiceConfig:710]  [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 16:57:47,570][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 16:57:47,570][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 16:57:47,571][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 16:57:47,571][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 16:57:47,604][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 16:57:51,764][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 10.20.42.200:20881 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 16:58:00,528][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-15 16:58:00,528][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-15 16:58:00,529][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-15 17:15:23,320][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 17:15:23,323][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 17:15:28,026][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 17:15:28,913][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 17:15:29,025][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 17:15:29,052][main][WARN][org.apache.dubbo.config.ServiceConfig:710]  [DUBBO] Use random available port(20881) for protocol dubbo, dubbo version: 2.7.23, current host: 10.20.42.200
+[2024-07-15 22:40:30,972][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:40:30,974][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:40:30,976][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:40:32,912][main][ERROR][org.apache.dubbo.registry.integration.RegistryProtocol:370]  [DUBBO] No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing., dubbo version: 2.7.23, current host: 192.168.6.1
+java.lang.IllegalStateException: No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing.
+	at org.apache.dubbo.common.extension.ExtensionLoader.findException(ExtensionLoader.java:650) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.createExtension(ExtensionLoader.java:657) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.getExtension(ExtensionLoader.java:445) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.getExtension(ExtensionLoader.java:429) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.RegistryFactory$Adaptive.getRegistry(RegistryFactory$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.getRegistry(RegistryProtocol.java:368) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:464) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:72) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:81) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:378) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:313) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:206) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:165) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.getInjectedObject(AbstractAnnotationBeanPostProcessor.java:409) ~[spring-context-support-1.0.11.jar:?]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor$AnnotatedFieldElement.inject(AbstractAnnotationBeanPostProcessor.java:626) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.31.jar:5.3.31]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.postProcessPropertyValues(AbstractAnnotationBeanPostProcessor.java:179) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+[2024-07-15 22:40:32,917][main][WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:599] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationConfig' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\oauth2\AuthorizationConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientDetailsServiceImpl': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing.
+[2024-07-15 22:40:32,945][main][ERROR][org.springframework.boot.SpringApplication:818] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationConfig' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\oauth2\AuthorizationConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientDetailsServiceImpl': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientDetailsServiceImpl': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing.
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.postProcessPropertyValues(AbstractAnnotationBeanPostProcessor.java:183) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 19 more
+Caused by: java.lang.IllegalStateException: No such extension org.apache.dubbo.registry.RegistryFactory by name nocas, no related exception was found, please check whether related SPI module is missing.
+	at org.apache.dubbo.common.extension.ExtensionLoader.findException(ExtensionLoader.java:650) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.createExtension(ExtensionLoader.java:657) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.getExtension(ExtensionLoader.java:445) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.common.extension.ExtensionLoader.getExtension(ExtensionLoader.java:429) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.RegistryFactory$Adaptive.getRegistry(RegistryFactory$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.getRegistry(RegistryProtocol.java:368) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:464) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:72) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:81) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:378) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:313) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:206) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:165) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.getInjectedObject(AbstractAnnotationBeanPostProcessor.java:409) ~[spring-context-support-1.0.11.jar:?]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor$AnnotatedFieldElement.inject(AbstractAnnotationBeanPostProcessor.java:626) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.31.jar:5.3.31]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.postProcessPropertyValues(AbstractAnnotationBeanPostProcessor.java:179) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 19 more
+[2024-07-15 22:41:19,317][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:41:19,318][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:41:26,262][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:41:26,266][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:41:26,268][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:41:29,239][main][WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:599] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationConfig' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\oauth2\AuthorizationConfig.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\security\SecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wechatUserDetailsService': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service cn.codefit.quju.app.api.service.AppletUserService. No provider available for the service cn.codefit.quju.app.api.service.AppletUserService:66011305 from the url dubbo://192.168.6.1/cn.codefit.quju.app.api.service.AppletUserService?application=quju-auth-service&dubbo=2.0.2&init=false&interface=cn.codefit.quju.app.api.service.AppletUserService&metadata-type=remote&methods=saveAppletUser,bindingPhone,getUser,validIdentity,isAttentionGzh,weixinLogin,isValidIdentity,modifyUserInfo,getCode,getAppletUserByOpenId,getAccessToken&pid=31440&qos.enable=false&register.ip=192.168.6.1&release=2.7.23&revision=66011305&side=consumer&sticky=false&timestamp=1721054489203&version=66011305 to the consumer 192.168.6.1 use dubbo version 2.7.23
+[2024-07-15 22:41:29,278][main][ERROR][org.springframework.boot.SpringApplication:818] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationConfig' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\oauth2\AuthorizationConfig.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\security\SecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wechatUserDetailsService': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service cn.codefit.quju.app.api.service.AppletUserService. No provider available for the service cn.codefit.quju.app.api.service.AppletUserService:66011305 from the url dubbo://192.168.6.1/cn.codefit.quju.app.api.service.AppletUserService?application=quju-auth-service&dubbo=2.0.2&init=false&interface=cn.codefit.quju.app.api.service.AppletUserService&metadata-type=remote&methods=saveAppletUser,bindingPhone,getUser,validIdentity,isAttentionGzh,weixinLogin,isValidIdentity,modifyUserInfo,getCode,getAppletUserByOpenId,getAccessToken&pid=31440&qos.enable=false&register.ip=192.168.6.1&release=2.7.23&revision=66011305&side=consumer&sticky=false&timestamp=1721054489203&version=66011305 to the consumer 192.168.6.1 use dubbo version 2.7.23
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\security\SecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wechatUserDetailsService': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service cn.codefit.quju.app.api.service.AppletUserService. No provider available for the service cn.codefit.quju.app.api.service.AppletUserService:66011305 from the url dubbo://192.168.6.1/cn.codefit.quju.app.api.service.AppletUserService?application=quju-auth-service&dubbo=2.0.2&init=false&interface=cn.codefit.quju.app.api.service.AppletUserService&metadata-type=remote&methods=saveAppletUser,bindingPhone,getUser,validIdentity,isAttentionGzh,weixinLogin,isValidIdentity,modifyUserInfo,getCode,getAppletUserByOpenId,getAccessToken&pid=31440&qos.enable=false&register.ip=192.168.6.1&release=2.7.23&revision=66011305&side=consumer&sticky=false&timestamp=1721054489203&version=66011305 to the consumer 192.168.6.1 use dubbo version 2.7.23
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:405) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wechatUserDetailsService': Injection of @DubboReference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service cn.codefit.quju.app.api.service.AppletUserService. No provider available for the service cn.codefit.quju.app.api.service.AppletUserService:66011305 from the url dubbo://192.168.6.1/cn.codefit.quju.app.api.service.AppletUserService?application=quju-auth-service&dubbo=2.0.2&init=false&interface=cn.codefit.quju.app.api.service.AppletUserService&metadata-type=remote&methods=saveAppletUser,bindingPhone,getUser,validIdentity,isAttentionGzh,weixinLogin,isValidIdentity,modifyUserInfo,getCode,getAppletUserByOpenId,getAccessToken&pid=31440&qos.enable=false&register.ip=192.168.6.1&release=2.7.23&revision=66011305&side=consumer&sticky=false&timestamp=1721054489203&version=66011305 to the consumer 192.168.6.1 use dubbo version 2.7.23
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.postProcessPropertyValues(AbstractAnnotationBeanPostProcessor.java:183) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:405) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 19 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service cn.codefit.quju.app.api.service.AppletUserService. No provider available for the service cn.codefit.quju.app.api.service.AppletUserService:66011305 from the url dubbo://192.168.6.1/cn.codefit.quju.app.api.service.AppletUserService?application=quju-auth-service&dubbo=2.0.2&init=false&interface=cn.codefit.quju.app.api.service.AppletUserService&metadata-type=remote&methods=saveAppletUser,bindingPhone,getUser,validIdentity,isAttentionGzh,weixinLogin,isValidIdentity,modifyUserInfo,getCode,getAppletUserByOpenId,getAccessToken&pid=31440&qos.enable=false&register.ip=192.168.6.1&release=2.7.23&revision=66011305&side=consumer&sticky=false&timestamp=1721054489203&version=66011305 to the consumer 192.168.6.1 use dubbo version 2.7.23
+	at org.apache.dubbo.config.ReferenceConfig.checkInvokerAvailable(ReferenceConfig.java:431) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:323) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:206) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:165) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.getInjectedObject(AbstractAnnotationBeanPostProcessor.java:409) ~[spring-context-support-1.0.11.jar:?]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor$AnnotatedFieldElement.inject(AbstractAnnotationBeanPostProcessor.java:626) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.31.jar:5.3.31]
+	at com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.postProcessPropertyValues(AbstractAnnotationBeanPostProcessor.java:179) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:405) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 19 more
+[2024-07-15 22:45:04,404][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:45:04,404][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 22:45:04,405][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 22:45:04,405][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:45:11,538][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:45:11,541][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:45:11,543][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:45:15,134][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 22:45:18,443][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 22:45:19,922][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:45:20,284][main][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20880 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:45:20,287][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:45:29,396][main][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-15 22:45:29,396][main][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-15 22:45:29,396][main][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-15 22:45:29,416][main][ERROR][org.springframework.boot.SpringApplication:818] Application run failed
+org.apache.dubbo.rpc.RpcException: Fail to start server(url: dubbo://192.168.6.1:20880/cn.codefit.quju.auth.service.AuthService?anyhost=true&application=quju-auth-service&bind.ip=192.168.6.1&bind.port=20880&channel.readonly.sent=true&codec=dubbo&default=true&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=cn.codefit.quju.auth.service.AuthService&metadata-type=remote&methods=postAccessToken&pid=19756&qos.enable=false&release=2.7.23&revision=66011305&service.name=ServiceBean:/cn.codefit.quju.auth.service.AuthService:66011305&side=provider&timestamp=1721054719932&version=66011305) Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:351) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:323) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:306) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:75) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:66) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$2(RegistryProtocol.java:263) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:261) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:213) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:62) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:518) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:339) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:314) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:238) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportService(DubboBootstrap.java:1100) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.lambda$exportServices$14(DubboBootstrap.java:1087) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.HashMap$Values.forEach(HashMap.java:977) ~[?:?]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportServices(DubboBootstrap.java:1071) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.start(DubboBootstrap.java:887) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onContextRefreshedEvent(DubboBootstrapApplicationListener.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onApplicationContextEvent(DubboBootstrapApplicationListener.java:63) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.context.OnceApplicationContextEventListener.onApplicationEvent(OnceApplicationContextEventListener.java:52) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:429) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:386) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:949) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:594) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyServer.<init>(NettyServer.java:79) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.bind(NettyTransporter.java:35) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporter$Adaptive.bind(Transporter$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporters.bind(Transporters.java:56) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:44) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:349) ~[dubbo-2.7.23.jar:2.7.23]
+	... 40 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:459) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:448) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+[2024-07-15 22:45:29,421][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:45:29,421][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 22:45:29,421][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 22:45:29,421][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:47:03,972][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:47:03,975][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:47:03,977][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:47:07,694][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 22:47:11,083][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 22:47:12,578][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:47:12,947][main][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20880 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:47:12,949][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:47:22,055][main][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-15 22:47:22,055][main][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-15 22:47:22,055][main][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-15 22:47:22,076][main][ERROR][org.springframework.boot.SpringApplication:818] Application run failed
+org.apache.dubbo.rpc.RpcException: Fail to start server(url: dubbo://192.168.6.1:20880/cn.codefit.quju.auth.service.AuthService?anyhost=true&application=quju-auth-service&bind.ip=192.168.6.1&bind.port=20880&channel.readonly.sent=true&codec=dubbo&default=true&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=cn.codefit.quju.auth.service.AuthService&metadata-type=remote&methods=postAccessToken&pid=11668&qos.enable=false&release=2.7.23&revision=66011305&service.name=ServiceBean:/cn.codefit.quju.auth.service.AuthService:66011305&side=provider&timestamp=1721054832588&version=66011305) Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:351) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:323) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:306) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:75) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:66) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$2(RegistryProtocol.java:263) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:261) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:213) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:62) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:518) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:339) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:314) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:238) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportService(DubboBootstrap.java:1100) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.lambda$exportServices$14(DubboBootstrap.java:1087) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.HashMap$Values.forEach(HashMap.java:977) ~[?:?]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportServices(DubboBootstrap.java:1071) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.start(DubboBootstrap.java:887) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onContextRefreshedEvent(DubboBootstrapApplicationListener.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onApplicationContextEvent(DubboBootstrapApplicationListener.java:63) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.context.OnceApplicationContextEventListener.onApplicationEvent(OnceApplicationContextEventListener.java:52) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:429) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:386) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:949) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:594) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyServer.<init>(NettyServer.java:79) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.bind(NettyTransporter.java:35) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporter$Adaptive.bind(Transporter$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporters.bind(Transporters.java:56) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:44) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:349) ~[dubbo-2.7.23.jar:2.7.23]
+	... 40 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:459) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:448) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+[2024-07-15 22:47:22,081][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:47:22,081][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 22:47:22,081][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 22:47:22,082][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:49:58,638][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:49:58,641][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:49:58,644][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:50:02,345][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 22:50:05,692][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 22:50:07,199][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:50:07,581][main][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20880 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:50:07,583][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:50:16,679][main][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-15 22:50:16,679][main][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-15 22:50:16,679][main][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-15 22:50:16,699][main][ERROR][org.springframework.boot.SpringApplication:818] Application run failed
+org.apache.dubbo.rpc.RpcException: Fail to start server(url: dubbo://192.168.6.1:20880/cn.codefit.quju.auth.service.AuthService?anyhost=true&application=quju-auth-service&bind.ip=192.168.6.1&bind.port=20880&channel.readonly.sent=true&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=cn.codefit.quju.auth.service.AuthService&metadata-type=remote&methods=postAccessToken&pid=4784&qos.enable=false&release=2.7.23&revision=66011305&service.name=ServiceBean:/cn.codefit.quju.auth.service.AuthService:66011305&side=provider&timestamp=1721055007210&version=66011305) Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:351) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:323) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:306) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:75) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:66) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.lambda$doLocalExport$2(RegistryProtocol.java:263) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:261) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:213) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:62) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:64) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:518) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:339) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:314) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:238) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportService(DubboBootstrap.java:1100) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.lambda$exportServices$14(DubboBootstrap.java:1087) ~[dubbo-2.7.23.jar:2.7.23]
+	at java.util.HashMap$Values.forEach(HashMap.java:977) ~[?:?]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.exportServices(DubboBootstrap.java:1071) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.bootstrap.DubboBootstrap.start(DubboBootstrap.java:887) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onContextRefreshedEvent(DubboBootstrapApplicationListener.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener.onApplicationContextEvent(DubboBootstrapApplicationListener.java:63) ~[dubbo-2.7.23.jar:2.7.23]
+	at com.alibaba.spring.context.OnceApplicationContextEventListener.onApplicationEvent(OnceApplicationContextEventListener.java:52) ~[spring-context-support-1.0.11.jar:?]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:429) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:386) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:949) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:594) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at cn.codefit.quju.auth.AuthApplication.main(AuthApplication.java:20) ~[classes/:?]
+Caused by: org.apache.dubbo.remoting.RemotingException: Failed to bind NettyServer on /192.168.6.1:20880, cause: Address already in use: bind
+	at org.apache.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:73) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyServer.<init>(NettyServer.java:79) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.bind(NettyTransporter.java:35) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporter$Adaptive.bind(Transporter$Adaptive.java) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.Transporters.bind(Transporters.java:56) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:44) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:70) ~[dubbo-2.7.23.jar:2.7.23]
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:349) ~[dubbo-2.7.23.jar:2.7.23]
+	... 40 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:459) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:448) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.101.Final.jar:4.1.101.Final]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+[2024-07-15 22:50:16,704][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 22:50:16,704][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:50:16,704][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 22:50:16,705][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:51:13,072][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:51:13,075][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:51:13,076][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:51:16,287][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 22:51:19,662][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 22:51:21,156][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:57:52,653][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 22:57:52,653][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-15 22:57:52,653][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-15 22:57:52,654][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 22:57:56,851][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:57:56,852][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-15 22:58:04,133][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-15 22:58:04,133][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-15 22:58:04,133][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-15 22:58:12,047][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 22:58:12,049][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:58:12,051][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 22:58:13,789][main][WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:599] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration' defined in file [D:\springbootpart\quju-cloud-demo\quju-cloud-demo\quju-auth\target\classes\cn\codefit\quju\auth\security\config\security\SecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2024-07-15 22:58:13,822][main][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in cn.codefit.quju.auth.security.config.security.SecurityConfiguration required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+
+[2024-07-15 23:00:31,071][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-15 23:00:31,072][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-15 23:00:39,290][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-15 23:00:39,292][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 23:00:39,294][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-15 23:00:42,880][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-15 23:00:46,185][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-15 23:00:47,676][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1

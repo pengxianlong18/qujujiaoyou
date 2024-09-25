@@ -1,0 +1,353 @@
+[2024-07-16 00:20:16,903][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 00:20:16,903][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 00:20:16,906][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 00:20:16,907][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 00:20:21,143][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:20:21,143][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:20:30,527][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 00:20:30,527][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 00:20:30,528][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 00:20:38,688][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 00:20:38,691][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 00:20:38,693][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 00:20:42,640][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 00:20:46,257][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 00:20:47,828][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:31:40,836][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 00:31:40,836][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 00:31:40,836][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 00:31:40,836][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 00:31:45,027][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:31:45,027][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:31:50,997][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 00:31:50,997][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 00:31:50,998][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 00:32:00,160][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 00:32:00,163][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 00:32:00,164][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 00:32:03,824][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 00:32:07,367][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 00:32:08,852][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:38:46,563][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 00:38:46,563][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 00:38:46,563][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 00:38:46,564][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 00:38:46,663][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:38:50,799][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 00:38:59,233][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 00:38:59,233][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 00:38:59,234][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 09:47:32,652][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 09:47:32,658][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 09:47:32,664][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 09:47:37,288][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 09:47:41,196][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 09:47:42,722][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:09:56,622][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 10:09:56,622][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 10:09:56,625][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 10:09:56,626][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 10:10:00,874][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:10:00,875][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:10:08,665][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 10:10:08,665][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 10:10:08,666][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 10:10:15,583][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 10:10:15,586][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:10:15,588][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:10:19,697][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 10:10:23,143][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 10:10:24,641][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:25:48,172][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 10:25:48,172][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 10:25:48,173][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 10:25:48,173][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 10:25:48,224][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:25:52,385][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:25:58,188][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 10:25:58,188][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 10:25:58,189][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 10:26:06,032][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 10:26:06,036][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:26:06,039][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:26:10,075][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 10:26:13,516][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 10:26:15,090][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:27:00,580][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 10:27:00,580][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 10:27:00,581][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 10:27:00,581][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 10:27:04,811][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:27:04,813][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:27:14,205][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 10:27:14,206][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 10:27:14,206][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 10:27:20,913][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 10:27:20,916][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:27:20,918][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:27:25,528][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 10:27:29,391][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 10:27:31,025][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:57:29,097][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 10:57:29,097][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 10:57:29,098][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 10:57:29,098][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 10:57:33,334][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:57:33,335][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 10:57:42,717][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 10:57:42,717][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 10:57:42,718][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 10:57:50,956][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 10:57:50,959][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:57:50,961][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 10:57:54,906][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 10:57:58,424][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 10:58:00,016][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:24:53,570][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 11:24:53,570][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 11:24:53,574][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 11:24:53,577][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 11:24:53,640][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:24:57,856][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:25:07,281][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 11:25:07,281][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 11:25:07,282][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 11:25:14,676][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 11:25:14,679][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:25:14,681][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:25:18,228][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 11:25:21,862][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 11:25:23,472][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:30:36,462][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 11:30:36,462][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 11:30:36,463][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 11:30:36,463][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 11:30:40,685][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:30:40,685][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:30:46,312][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 11:30:46,313][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 11:30:46,313][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 11:30:57,129][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 11:30:57,132][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:30:57,134][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:31:00,495][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 11:31:04,113][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 11:31:05,790][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:33:39,516][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 11:33:39,516][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 11:33:39,516][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 11:33:39,517][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 11:33:43,744][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:33:43,744][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:33:48,381][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 11:33:48,382][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 11:33:48,382][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 11:33:57,286][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 11:33:57,289][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:33:57,292][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:34:00,893][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 11:34:04,683][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 11:34:06,278][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:42:38,195][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 11:42:38,195][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 11:42:38,196][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 11:42:38,196][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 11:42:42,426][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:42:42,426][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 11:42:50,532][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 11:42:50,532][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 11:42:50,533][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 11:42:57,886][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 11:42:57,889][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:42:57,890][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 11:43:01,732][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 11:43:05,169][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 11:43:06,897][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 14:46:47,867][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 14:46:47,867][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 14:46:47,872][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 14:46:47,875][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 14:46:47,938][NettyClientWorker-1-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 14:46:52,173][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysOauthClientService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 14:46:59,280][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 14:46:59,280][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 14:46:59,282][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 14:47:07,388][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 14:47:07,392][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 14:47:07,396][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 14:47:11,141][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 14:47:14,715][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 14:47:16,256][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 15:05:53,952][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 15:05:53,952][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 15:05:53,952][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 15:05:53,952][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 15:05:58,180][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 15:05:58,180][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 15:06:07,588][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 15:06:07,588][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 15:06:07,589][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 15:06:14,788][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 15:06:14,791][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 15:06:14,794][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 15:06:18,357][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 15:06:21,967][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 15:06:23,521][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 15:30:13,695][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 15:30:13,695][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 15:30:13,699][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 15:30:13,701][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 15:30:17,957][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 15:30:25,869][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 15:30:25,869][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 15:30:25,870][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 16:07:26,862][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 16:07:26,866][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 16:07:26,869][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 16:07:30,685][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 16:07:34,419][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 16:07:36,072][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:12:46,925][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 16:12:46,925][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 16:12:46,925][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 16:12:46,925][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 16:12:51,143][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:12:51,144][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:12:58,856][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 16:12:58,856][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 16:12:58,857][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[2024-07-16 16:29:14,304][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service] & group[DEFAULT_GROUP]
+[2024-07-16 16:29:14,307][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 16:29:14,309][main][WARN][com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:87] Ignore the empty nacos configuration and get it based on dataId[quju-auth-service-dev.yaml] & group[DEFAULT_GROUP]
+[2024-07-16 16:29:18,092][main][WARN][org.springframework.security.config.annotation.web.builders.WebSecurity:333] 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+[2024-07-16 16:29:21,710][main][WARN][org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2024-07-16 16:29:23,314][main][WARN][org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor:411]  [DUBBO] ServiceBean:cn.codefit.quju.app.api.service.AppletUserService:66011305 has 2 reference instances, there are: @Reference(timeout=30000,version=66011305) cn.codefit.quju.app.api.service.AppletUserService, @Reference(version=66011305) cn.codefit.quju.app.api.service.AppletUserService, dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:53:56,446][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:108] [HttpClientBeanHolder] Start destroying common HttpClient
+[2024-07-16 16:53:56,446][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:145] [NotifyCenter] Start destroying Publisher
+[2024-07-16 16:53:56,446][Thread-17][WARN][com.alibaba.nacos.common.notify.NotifyCenter:162] [NotifyCenter] Destruction of the end
+[2024-07-16 16:53:56,447][Thread-1][WARN][com.alibaba.nacos.common.http.HttpClientBeanHolder:114] [HttpClientBeanHolder] Destruction of the end
+[2024-07-16 16:54:00,665][NettyClientWorker-4-1][WARN][org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository:92]  [DUBBO] No available executors, this is not expected, framework should call createExecutorIfAbsent first before coming to here., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:54:00,666][SpringContextShutdownHook][WARN][org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient:202]  [DUBBO] 192.168.6.1:20883 cn.codefit.quju.system.api.service.SysUserService:66011305 safe guard client , should not be called ,must have a bug., dubbo version: 2.7.23, current host: 192.168.6.1
+[2024-07-16 16:54:07,174][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:72] [NamingHttpClientManager] Start destroying NacosRestTemplate
+[2024-07-16 16:54:07,174][SpringContextShutdownHook][WARN][com.alibaba.nacos.client.naming:79] [NamingHttpClientManager] Destruction of the end
+[2024-07-16 16:54:07,175][SpringContextShutdownHook][WARN][org.springframework.beans.factory.support.DisposableBeanAdapter:337] Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException

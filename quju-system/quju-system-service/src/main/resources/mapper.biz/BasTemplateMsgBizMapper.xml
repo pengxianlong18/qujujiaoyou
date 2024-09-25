@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codefit.quju.system.service.biz.dao.BasTemplateMsgBizMapper">
+    <resultMap id="BaseResultMap" type="cn.codefit.quju.system.api.dto.BasTemplateMsgDto">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="touser" jdbcType="VARCHAR" property="touser"/>
+        <result column="template_id" jdbcType="VARCHAR" property="templateId"/>
+        <result column="messge_type" jdbcType="INTEGER" property="messgeType"/>
+        <result column="jump_type" jdbcType="TINYINT" property="jumpType"/>
+        <result column="msg_id" jdbcType="VARCHAR" property="msgId"/>
+        <result column="status" jdbcType="TINYINT" property="status"/>
+        <result column="platform" jdbcType="INTEGER" property="platform"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        <result column="modify_user" jdbcType="VARCHAR" property="modifyUser"/>
+        <result column="modify_user_name" jdbcType="VARCHAR" property="modifyUserName"/>
+        <result column="errcode" jdbcType="INTEGER" property="errcode"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        touser,
+        template_id,
+        messge_type,
+        jump_type,
+        msg_id,
+        `status`,
+        platform,
+        is_deleted,
+        create_user,
+        create_time,
+        create_user_name,
+        modify_time,
+        modify_user,
+        modify_user_name,
+        errcode
+    </sql>
+
+
+    <select id="selectByMap" parameterType="map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from bas_template_msg where 1=1
+
+        <if test="id != null">
+            and id = #{id,jdbcType=BIGINT}
+        </if>
+        <if test="touser != null">
+            and touser like concat('%', #{touser}, '%')
+        </if>
+        <if test="templateId != null">
+            and template_id = #{templateId,jdbcType=VARCHAR}
+        </if>
+        <if test="messgeType != null">
+            and messge_type = #{messgeType,jdbcType=INTEGER}
+        </if>
+        <if test="jumpType != null">
+            and jump_type = #{jumpType,jdbcType=TINYINT}
+        </if>
+        <if test="msgId != null">
+            and msg_id like concat('%', #{msg_id}, '%')
+        </if>
+        <if test="status != null">
+            and `status` = #{status,jdbcType=TINYINT}
+        </if>
+        <if test="platform != null">
+            and platform = #{platform,jdbcType=INTEGER}
+        </if>
+        <if test="isDeleted != null">
+            and is_deleted = #{isDeleted,jdbcType=TINYINT}
+        </if>
+        <if test="createUser != null">
+            and create_user = #{createUser,jdbcType=VARCHAR}
+        </if>
+        <if test="createTime != null">
+            and create_time = #{createTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="createUserName != null">
+            and create_user_name = #{createUserName,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyTime != null">
+            and modify_time = #{modifyTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="modifyUser != null">
+            and modify_user = #{modifyUser,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyUserName != null">
+            and modify_user_name = #{modifyUserName,jdbcType=VARCHAR}
+        </if>
+        <if test="errcode != null">
+            and errcode = #{errcode,jdbcType=INTEGER}
+        </if>
+        <if test="json != null">
+            and json = #{json,jdbcType=LONGVARCHAR}
+        </if>
+        <if test="errmsg != null">
+            and errmsg = #{errmsg,jdbcType=LONGVARCHAR}
+        </if>
+
+        order by id desc
+    </select>
+</mapper>

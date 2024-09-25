@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codefit.quju.system.service.biz.dao.ApletUserBizMapper">
+    <resultMap id="BaseResultMap" type="cn.codefit.quju.system.api.dto.AppletUserDto">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="wxnickname" jdbcType="VARCHAR" property="wxnickname"/>
+        <result column="pic" jdbcType="VARCHAR" property="pic"/>
+        <result column="gender" jdbcType="TINYINT" property="gender"/>
+        <result column="country" jdbcType="VARCHAR" property="country"/>
+        <result column="province" jdbcType="VARCHAR" property="province"/>
+        <result column="city" jdbcType="VARCHAR" property="city"/>
+        <result column="language" jdbcType="INTEGER" property="language"/>
+        <result column="cover_photo" jdbcType="VARCHAR" property="coverPhoto"/>
+        <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
+        <result column="union_id" jdbcType="VARCHAR" property="unionId"/>
+        <result column="self_introduction" jdbcType="VARCHAR" property="selfIntroduction"/>
+        <result column="nickname" jdbcType="VARCHAR" property="nickname"/>
+        <result column="user_industry" jdbcType="VARCHAR" property="userIndustry"/>
+        <result column="user_position" jdbcType="VARCHAR" property="userPosition"/>
+        <result column="user_work_company" jdbcType="VARCHAR" property="userWorkCompany"/>
+        <result column="graduate_school" jdbcType="VARCHAR" property="graduateSchool"/>
+        <result column="record_of_school" jdbcType="VARCHAR" property="recordOfSchool"/>
+        <result column="current_province" jdbcType="VARCHAR" property="currentProvince"/>
+        <result column="current_city" jdbcType="VARCHAR" property="currentCity"/>
+        <result column="home_province" jdbcType="VARCHAR" property="homeProvince"/>
+        <result column="home_city" jdbcType="VARCHAR" property="homeCity"/>
+        <result column="emotional_state" jdbcType="TINYINT" property="emotionalState"/>
+        <result column="user_constellation" jdbcType="VARCHAR" property="userConstellation"/>
+        <result column="date_of_birth" jdbcType="VARCHAR" property="dateOfBirth"/>
+        <result column="age" jdbcType="TINYINT" property="age"/>
+        <result column="national" jdbcType="VARCHAR" property="national"/>
+        <result column="faith" jdbcType="VARCHAR" property="faith"/>
+        <result column="animal_sign" jdbcType="VARCHAR" property="animalSign"/>
+        <result column="weight" jdbcType="SMALLINT" property="weight"/>
+        <result column="height" jdbcType="SMALLINT" property="height"/>
+        <result column="blood_type" jdbcType="TINYINT" property="bloodType"/>
+        <result column="infoIntegrity" jdbcType="DECIMAL" property="infointegrity"/>
+        <result column="invite_code" jdbcType="VARCHAR" property="inviteCode"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="token" jdbcType="VARCHAR" property="token"/>
+        <result column="register_type" jdbcType="VARCHAR" property="registerType"/>
+        <result column="registration_code" jdbcType="VARCHAR" property="registrationCode"/>
+        <result column="is_show" jdbcType="TINYINT" property="isShow"/>
+        <result column="pass" jdbcType="VARCHAR" property="pass"/>
+        <result column="imei" jdbcType="VARCHAR" property="imei"/>
+        <result column="channel_id" jdbcType="VARCHAR" property="channelId"/>
+        <result column="mail" jdbcType="VARCHAR" property="mail"/>
+        <result column="version" jdbcType="VARCHAR" property="version"/>
+        <result column="dev_type" jdbcType="VARCHAR" property="devType"/>
+        <result column="register_ip" jdbcType="VARCHAR" property="registerIp"/>
+        <result column="inviter_id" jdbcType="INTEGER" property="inviterId"/>
+        <result column="id_card" jdbcType="VARCHAR" property="idCard"/>
+        <result column="user_power" jdbcType="INTEGER" property="userPower"/>
+        <result column="open_id" jdbcType="VARCHAR" property="openId"/>
+        <result column="gzh_open_id" jdbcType="VARCHAR" property="gzhOpenId"/>
+        <result column="platform" jdbcType="INTEGER" property="platform"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="modify_user" jdbcType="VARCHAR" property="modifyUser"/>
+        <result column="modify_user_name" jdbcType="VARCHAR" property="modifyUserName"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        wxnickname,
+        pic,
+        gender,
+        country,
+        province,
+        city,
+        `language`,
+        cover_photo,
+        mobile,
+        union_id,
+        self_introduction,
+        nickname,
+        user_industry,
+        user_position,
+        user_work_company,
+        graduate_school,
+        record_of_school,
+        current_province,
+        current_city,
+        home_province,
+        home_city,
+        emotional_state,
+        user_constellation,
+        date_of_birth,
+        age,
+        `national`,
+        faith,
+        animal_sign,
+        weight,
+        height,
+        blood_type,
+        infoIntegrity,
+        invite_code,
+        user_name,
+        token,
+        register_type,
+        registration_code,
+        is_show,
+        pass,
+        imei,
+        channel_id,
+        mail,
+        version,
+        dev_type,
+        register_ip,
+        inviter_id,
+        id_card,
+        user_power,
+        open_id,
+        gzh_open_id,
+        platform,
+        is_deleted,
+        create_user,
+        create_time,
+        modify_time,
+        create_user_name,
+        modify_user,
+        modify_user_name
+    </sql>
+
+
+    <select id="selectByExample" parameterType="map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from applet_user where
+        1=1
+        <if test="wxnickname != null   and wxnickname != ''">
+            and wxnickname = #{wxnickname,jdbcType=VARCHAR}
+        </if>
+        <if test="pic != null  and pic != ''">
+            and pic = #{pic,jdbcType=VARCHAR}
+        </if>
+        <if test="gender != null">
+            and gender = #{gender,jdbcType=TINYINT}
+        </if>
+        <if test="country != null">
+            and country = #{country,jdbcType=VARCHAR}
+        </if>
+        <if test="province != null  and province != ''">
+            and province = #{province,jdbcType=VARCHAR}
+        </if>
+        <if test="city != null  and city != ''">
+            and city = #{city,jdbcType=VARCHAR}
+        </if>
+        <if test="language != null  and language != ''">
+            and `language` = #{language,jdbcType=INTEGER}
+        </if>
+        <if test="coverPhoto != null  and coverPhoto != ''">
+            and cover_photo = #{coverPhoto,jdbcType=VARCHAR}
+        </if>
+        <if test="mobile != null  and mobile != ''">
+            and mobile = #{mobile,jdbcType=VARCHAR}
+        </if>
+        <if test="unionId != null  and unionId != ''">
+            and union_id = #{unionId,jdbcType=VARCHAR}
+        </if>
+        <if test="selfIntroduction != null  and selfIntroduction != ''">
+            and self_introduction = #{selfIntroduction,jdbcType=VARCHAR}
+        </if>
+        <if test="nickname != null  and nickname != ''">
+            and nickname = #{nickname,jdbcType=VARCHAR}
+        </if>
+        <if test="userIndustry != null  and userIndustry != ''">
+            and user_industry = #{userIndustry,jdbcType=VARCHAR}
+        </if>
+        <if test="userPosition != null  and userPosition != ''">
+            and user_position = #{userPosition,jdbcType=VARCHAR}
+        </if>
+        <if test="userWorkCompany != null  and userWorkCompany != ''">
+            and user_work_company = #{userWorkCompany,jdbcType=VARCHAR}
+        </if>
+        <if test="graduateSchool != null  and graduateSchool != ''">
+            and graduate_school = #{graduateSchool,jdbcType=VARCHAR}
+        </if>
+        <if test="recordOfSchool != null  and recordOfSchool != ''">
+            and record_of_school = #{recordOfSchool,jdbcType=VARCHAR}
+        </if>
+        <if test="currentProvince != null  and currentProvince != ''">
+            and current_province = #{currentProvince,jdbcType=VARCHAR}
+        </if>
+        <if test="currentCity != null  and currentCity != ''">
+            and current_city = #{currentCity,jdbcType=VARCHAR}
+        </if>
+        <if test="homeProvince != null  and homeProvince != ''">
+            and home_province = #{homeProvince,jdbcType=VARCHAR}
+        </if>
+        <if test="homeCity != null  and homeCity != ''">
+            and home_city = #{homeCity,jdbcType=VARCHAR}
+        </if>
+        <if test="emotionalState != null">
+            and emotional_state = #{emotionalState,jdbcType=TINYINT}
+        </if>
+        <if test="userConstellation != null  and userConstellation != ''">
+            and user_constellation = #{userConstellation,jdbcType=VARCHAR}
+        </if>
+        <if test="dateOfBirth != null  and dateOfBirth != ''">
+            and date_of_birth = #{dateOfBirth,jdbcType=VARCHAR}
+        </if>
+        <if test="age != null">
+            and age = #{age,jdbcType=TINYINT}
+        </if>
+        <if test="national != null  and national != ''">
+            and `national` = #{national,jdbcType=VARCHAR}
+        </if>
+        <if test="faith != null  and faith != ''">
+            and faith = #{faith,jdbcType=VARCHAR}
+        </if>
+        <if test="animalSign != null  and animalSign != ''">
+            and animal_sign = #{animalSign,jdbcType=VARCHAR}
+        </if>
+        <if test="weight != null">
+            and weight = #{weight,jdbcType=SMALLINT}
+        </if>
+        <if test="height != null">
+            and height = #{height,jdbcType=SMALLINT}
+        </if>
+        <if test="bloodType != null">
+            and blood_type = #{bloodType,jdbcType=TINYINT}
+        </if>
+        <if test="infointegrity != null">
+            and infoIntegrity = #{infointegrity,jdbcType=DECIMAL}
+        </if>
+        <if test="inviteCode != null  and inviteCode != ''">
+            and invite_code = #{inviteCode,jdbcType=VARCHAR}
+        </if>
+        <if test="userName != null  and userName != ''">
+            and user_name = #{userName,jdbcType=VARCHAR}
+        </if>
+        <if test="token != null  and token != ''">
+            and token = #{token,jdbcType=VARCHAR}
+        </if>
+        <if test="registerType != null  and registerType != ''">
+            and register_type = #{registerType,jdbcType=VARCHAR}
+        </if>
+        <if test="registrationCode != null  and registrationCode != ''">
+            and registration_code = #{registrationCode,jdbcType=VARCHAR}
+        </if>
+        <if test="isShow != null">
+            and is_show = #{isShow,jdbcType=TINYINT}
+        </if>
+        <if test="pass != null  and pass != ''">
+            and pass = #{pass,jdbcType=VARCHAR}
+        </if>
+        <if test="imei != null  and imei != ''">
+            and imei = #{imei,jdbcType=VARCHAR}
+        </if>
+        <if test="channelId != null  and channelId != ''">
+            and channel_id = #{channelId,jdbcType=VARCHAR}
+        </if>
+        <if test="mail != null  and mail != ''">
+            and mail = #{mail,jdbcType=VARCHAR}
+        </if>
+        <if test="version != null  and version != ''">
+            and version = #{version,jdbcType=VARCHAR}
+        </if>
+        <if test="devType != null  and devType != ''">
+            and dev_type = #{devType,jdbcType=VARCHAR}
+        </if>
+        <if test="registerIp != null  and registerIp != ''">
+            and register_ip = #{registerIp,jdbcType=VARCHAR}
+        </if>
+        <if test="inviterId != null">
+            and inviter_id = #{inviterId,jdbcType=INTEGER}
+        </if>
+        <if test="idCard != null  and idCard != ''">
+            and id_card = #{idCard,jdbcType=VARCHAR}
+        </if>
+        <if test="userPower != null">
+            and user_power = #{userPower,jdbcType=INTEGER}
+        </if>
+        <if test="openId != null  and openId != ''">
+            and open_id = #{openId,jdbcType=VARCHAR}
+        </if>
+        <if test="gzhOpenId != null  and gzhOpenId != ''">
+            and gzh_open_id = #{gzhOpenId,jdbcType=VARCHAR}
+        </if>
+        <if test="platform != null">
+            and platform = #{platform,jdbcType=INTEGER}
+        </if>
+        <if test="isDeleted != null">
+            and is_deleted = #{isDeleted,jdbcType=TINYINT}
+        </if>
+        <if test="createUser != null  and createUser != ''">
+            and create_user = #{createUser,jdbcType=VARCHAR}
+        </if>
+        <if test="createTime != null">
+            and create_time = #{createTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="modifyTime != null">
+            and modify_time = #{modifyTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="createUserName != null  and createUserName != ''">
+            and create_user_name = #{createUserName,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyUser != null  and modifyUser != ''">
+            and modify_user = #{modifyUser,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyUserName != null  and modifyUserName != ''">
+            and modify_user_name = #{modifyUserName,jdbcType=VARCHAR}
+        </if>
+
+        <if test="idList != null and idList.size() > 0">
+            AND id IN
+            <foreach collection="idList" index="index" item="item" separator="," open="(" close=")">
+                #{item}
+            </foreach>
+        </if>
+    </select>
+
+
+    <select id="selectNickName" parameterType="java.lang.String" resultType="java.lang.String">
+        select nickname from applet_user where gzh_open_id = #{gzhOpenId,jdbcType=VARCHAR}
+    </select>
+</mapper>

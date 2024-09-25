@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: quju-auth-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+#        namespace: 19b020cb-c6f8-486f-8eef-a187aefb319b
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 19b020cb-c6f8-486f-8eef-a187aefb319b

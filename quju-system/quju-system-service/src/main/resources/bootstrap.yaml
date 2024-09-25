@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: quju-system-service
+  cloud:
+    nacos:
+#      username: codefit
+#      password: codefitTest123!
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+#        namespace: 19b020cb-c6f8-486f-8eef-a187aefb319b
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 19b020cb-c6f8-486f-8eef-a187aefb319b
+
+# 其他需要在启动早期加载的配置

@@ -1,0 +1,32 @@
+server:
+  port: 8092
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-circular-references: true
+
+dubbo:
+  application:
+    name: quju-auth-service
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address:  nacos://127.0.0.1:8848
+  #    address: nacos://119.91.60.138:8848?namespace=prod&username=codefit&password=codefitTest123!
+  cloud:
+    subscribed-services: quju-auth-service
+  consumer:
+    check: false
+
+logging:
+  config: classpath:log4j2-dev.xml
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml,classpath:mapper.biz/*Mapper.xml
+  type-aliases-package: cn.codefit.quju.auth.model.po
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

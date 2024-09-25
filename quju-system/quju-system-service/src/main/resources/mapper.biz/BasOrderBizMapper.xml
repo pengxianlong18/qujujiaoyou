@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codefit.quju.system.service.biz.dao.BasOrderBizMapper">
+    <resultMap id="BaseResultMap" type="cn.codefit.quju.system.api.dto.BasOrderDto">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="out_trade_no" jdbcType="VARCHAR" property="outTradeNo"/>
+        <result column="user_id" jdbcType="BIGINT" property="userId"/>
+        <result column="nick_name" jdbcType="VARCHAR" property="nickName"/>
+        <result column="activity_no" jdbcType="VARCHAR" property="activityNo"/>
+        <result column="coin" jdbcType="INTEGER" property="coin"/>
+        <result column="body" jdbcType="VARCHAR" property="body"/>
+        <result column="trade_type" jdbcType="VARCHAR" property="tradeType"/>
+        <result column="nonce_str" jdbcType="VARCHAR" property="nonceStr"/>
+        <result column="trade_status" jdbcType="VARCHAR" property="tradeStatus"/>
+        <result column="recharge_type" jdbcType="INTEGER" property="rechargeType"/>
+        <result column="pay_money" jdbcType="VARCHAR" property="payMoney"/>
+        <result column="discounts_fee" jdbcType="VARCHAR" property="discountsFee"/>
+        <result column="real_fee" jdbcType="VARCHAR" property="realFee"/>
+        <result column="trade_no" jdbcType="VARCHAR" property="tradeNo"/>
+        <result column="buyer_logon_id" jdbcType="VARCHAR" property="buyerLogonId"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="time_end" jdbcType="VARCHAR" property="timeEnd"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="platform" jdbcType="INTEGER" property="platform"/>
+        <result column="order_type" jdbcType="INTEGER" property="orderType"/>
+        <result column="is_refund" jdbcType="INTEGER" property="isRefund"/>
+        <result column="refund_trade_no" jdbcType="VARCHAR" property="refundTradeNo"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        out_trade_no,
+        user_id,
+        nick_name,
+        activity_no,
+        coin,
+        body,
+        trade_type,
+        nonce_str,
+        trade_status,
+        recharge_type,
+        pay_money,
+        discounts_fee,
+        real_fee,
+        trade_no,
+        buyer_logon_id,
+        create_time,
+        time_end,
+        update_time,
+        platform,
+        order_type,
+        is_refund,
+        refund_trade_no
+    </sql>
+
+
+    <select id="selectByCondition" parameterType="map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from bas_order where 1=1
+
+        <if test="id != null">
+            and id = #{id,jdbcType=BIGINT}
+        </if>
+        <if test="outTradeNo != null and outTradeNo != ''">
+            and out_trade_no = #{outTradeNo,jdbcType=VARCHAR}
+        </if>
+        <if test="userId != null">
+            and user_id = #{userId,jdbcType=BIGINT}
+        </if>
+        <if test="nickName != null and nickName != ''">
+            and nick_name = #{nickName,jdbcType=VARCHAR}
+        </if>
+        <if test="activityNo != null and activityNo != ''">
+            and activity_no = #{activityNo,jdbcType=VARCHAR}
+        </if>
+        <if test="coin != null">
+            and coin = #{coin,jdbcType=INTEGER}
+        </if>
+        <if test="body != null and body != ''">
+            and body = #{body,jdbcType=VARCHAR}
+        </if>
+        <if test="tradeType != null and tradeType != ''">
+            and trade_type = #{tradeType,jdbcType=VARCHAR}
+        </if>
+        <if test="nonceStr != null and nonceStr != ''">
+            and nonce_str = #{nonceStr,jdbcType=VARCHAR}
+        </if>
+        <if test="tradeStatus != null and tradeStatus != ''">
+            and trade_status = #{tradeStatus,jdbcType=VARCHAR}
+        </if>
+        <if test="rechargeType != null">
+            and recharge_type = #{rechargeType,jdbcType=INTEGER}
+        </if>
+        <if test="payMoney != null and payMoney != ''">
+            and pay_money = #{payMoney,jdbcType=VARCHAR}
+        </if>
+        <if test="discountsFee != null and discountsFee != ''">
+            and discounts_fee = #{discountsFee,jdbcType=VARCHAR}
+        </if>
+        <if test="realFee != null and realFee != ''">
+            and real_fee = #{realFee,jdbcType=VARCHAR}
+        </if>
+        <if test="tradeNo != null and tradeNo != ''">
+            and trade_no = #{tradeNo,jdbcType=VARCHAR}
+        </if>
+        <if test="buyerLogonId != null and buyerLogonId != ''">
+            and buyer_logon_id = #{buyerLogonId,jdbcType=VARCHAR}
+        </if>
+        <if test="createTime != null">
+            and create_time = #{createTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="timeEnd != null and timeEnd != ''">
+            and time_end = #{timeEnd,jdbcType=VARCHAR}
+        </if>
+        <if test="updateTime != null">
+            and update_time = #{updateTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="platform != null">
+            and platform = #{platform,jdbcType=INTEGER}
+        </if>
+        <if test="orderType != null">
+            and order_type = #{orderType,jdbcType=INTEGER}
+        </if>
+        <if test="isRefund != null">
+            and is_refund = #{isRefund,jdbcType=INTEGER}
+        </if>
+        <if test="refundTradeNo != null and refundTradeNo != ''">
+            and refund_trade_no = #{refundTradeNo,jdbcType=VARCHAR}
+        </if>
+
+        order by id desc
+    </select>
+</mapper>

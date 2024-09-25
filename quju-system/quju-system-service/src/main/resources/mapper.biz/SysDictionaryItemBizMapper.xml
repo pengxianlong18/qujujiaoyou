@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codefit.quju.system.service.biz.dao.SysDictionaryItemBizMapper">
+    <resultMap id="BaseResultMap" type="cn.codefit.quju.system.api.dto.SysDictionaryItemDto">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="dict_code" jdbcType="VARCHAR" property="dictCode"/>
+        <result column="item_code" jdbcType="VARCHAR" property="itemCode"/>
+        <result column="item_name" jdbcType="VARCHAR" property="itemName"/>
+        <result column="sort" jdbcType="INTEGER" property="sort"/>
+        <result column="status" jdbcType="TINYINT" property="status"/>
+        <result column="is_default" jdbcType="TINYINT" property="isDefault"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="platform" jdbcType="INTEGER" property="platform"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        <result column="modify_user" jdbcType="VARCHAR" property="modifyUser"/>
+        <result column="modify_user_name" jdbcType="VARCHAR" property="modifyUserName"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        dict_code,
+        item_code,
+        item_name,
+        sort,
+        `status`,
+        is_default,
+        remark,
+        platform,
+        is_deleted,
+        create_user,
+        create_time,
+        create_user_name,
+        modify_time,
+        modify_user,
+        modify_user_name
+    </sql>
+
+
+    <select id="selectByCondition" parameterType="map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from sys_dictionary_item
+        where 1=1
+
+        <if test="id != null">
+            and id = #{id,jdbcType=BIGINT}
+        </if>
+        <if test="dictCode != null  and dictCode != ''">
+            and dict_code = #{dictCode,jdbcType=VARCHAR}
+        </if>
+        <if test="itemCode != null  and itemCode != ''">
+            and item_code = #{itemCode,jdbcType=VARCHAR}
+        </if>
+        <if test="itemName != null  and itemName != ''">
+            and item_name = #{itemName,jdbcType=VARCHAR}
+        </if>
+        <if test="sort != null">
+            and sort = #{sort,jdbcType=INTEGER}
+        </if>
+        <if test="status != null">
+            and `status` = #{status,jdbcType=TINYINT}
+        </if>
+        <if test="isDefault != null">
+            and is_default = #{isDefault,jdbcType=TINYINT}
+        </if>
+        <if test="remark != null  and remark != ''">
+            and remark = #{remark,jdbcType=VARCHAR}
+        </if>
+        <if test="platform != null">
+            and platform = #{platform,jdbcType=INTEGER}
+        </if>
+        <if test="isDeleted != null">
+            and is_deleted = #{isDeleted,jdbcType=TINYINT}
+        </if>
+        <if test="createUser != null">
+            and create_user = #{createUser,jdbcType=VARCHAR}
+        </if>
+        <if test="createTime != null">
+            and create_time = #{createTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="createUserName != null">
+            and create_user_name = #{createUserName,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyTime != null">
+            and modify_time = #{modifyTime,jdbcType=TIMESTAMP}
+        </if>
+        <if test="modifyUser != null">
+            and modify_user = #{modifyUser,jdbcType=VARCHAR}
+        </if>
+        <if test="modifyUserName != null">
+            and modify_user_name = #{modifyUserName,jdbcType=VARCHAR}
+        </if>
+
+        <choose>
+            <when test="fieldSort != null and fieldSort != ''
+            and (orderSort == 'desc' or orderSort == 'asc')">
+                order by ${fieldSort} ${orderSort}
+            </when>
+            <otherwise>
+                order by id desc
+            </otherwise>
+        </choose>
+    </select>
+
+
+    <update id="checkSysDictItemDefault" parameterType="map">
+        update sys_dictionary_item set is_default = #{isDefault,jdbcType=TINYINT}
+        where dict_code = #{dictCode,jdbcType=VARCHAR} and id != #{id,jdbcType=INTEGER}
+    </update>
+
+
+    <select id="checkDictItemByCode" parameterType="map" resultType="java.lang.Integer">
+        select count(id) from sys_dictionary_item where 1=1
+
+        <if test="itemCode != null and itemCode != ''">
+            and item_code = #{itemCode}
+        </if>
+
+        <if test="noId != null">
+            and id != #{noId}
+        </if>
+        and is_deleted=0
+    </select>
+</mapper>
